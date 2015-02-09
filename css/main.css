@@ -8,30 +8,30 @@ body {
 
 header {
   background-color: rgba(39, 21, 52, 0.8);
-  height: 100px; }
+  height: 10%; }
 
 header img {
-  margin-top: 10px;
+  margin-top: 5%;
   margin-left: 10%;
   width: 75%;
   border-radius: 100%;
-  border: 5px solid #000000; }
+  border: .4em solid #000000; }
 
 h1 {
   font-family: 'Calligraffitti', cursive;
-  font-size: 54px;
-  letter-spacing: 5px;
+  font-size: 3.4em;
+  letter-spacing: .2em;
   font-weight: bold;
   color: #000000;
-  margin-top: 30px; }
+  margin-top: 10%; }
 
 .contact {
-  margin-top: 5px; }
+  margin-top: 2%; }
 
 .contact a {
-  font-size: 54px;
+  font-size: 3.4em;
   line-height: 1.6em;
-  padding: 20px; }
+  padding: 5%; }
 
 .contact i:hover {
   color: #06adcb; }
@@ -58,35 +58,35 @@ FADE IN KEYFRAME
 /******************************/
 .site-center {
   background-color: rgba(39, 21, 52, 0.8);
-  margin-top: 75px;
-  height: 480px;
+  margin-top: 15%;
+  height: 50%;
   -webkit-box-shadow: 10px 10px 15px 0px #191919;
   -moz-box-shadow: 10px 10px 15px 0px #191919;
   box-shadow: 10px 10px 15px 0px #191919;
   overflow: scroll; }
 
 .panel-body {
-  height: 300px;
+  height: 20%;
   overflow: scroll; }
 
 .panel-body a {
   color: #271534; }
 
 .panel-group {
-  margin-top: 10px; }
+  margin-top: 5%; }
 
 h4 {
   font-family: 'Calligraffitti', cursive; }
 
 body p {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   color: #271534; }
 
 body ul {
   font-family: 'Josefin Sans', sans-serif;
   list-style-type: square;
-  font-size: 16px; }
+  font-size: 1em; }
 
 .panel-default > .panel-heading {
   background-color: rgba(6, 173, 203, 0.6); }
@@ -110,21 +110,21 @@ body ul {
   margin-bottom: 0; }
 
 .sub-rec {
-  margin-top: 20px; }
+  margin-top: 5%; }
 
 .rec-info {
   text-align: right;
   font-style: italic; }
 
 .social a {
-  font-size: 60px;
+  font-size: 3.8em;
   line-height: 1.8em; }
 
 .social .fa, .contact .fa {
   color: #FFFFFF; }
 
 footer p {
-  margin: 5px 15% 5px 15%;
+  margin: 2% 15% 2% 15%;
   color: #FFFFFF; }
 
 /*******************************
@@ -148,44 +148,60 @@ ROTATE TRANSITION
 /*******************************
 MEDIA QUERIES
 ********************************/
+/*******************************
+768PX RESPONSIVE
+*******************************/
 @media screen and (max-width: 768px) {
   .social a {
-    font-size: 46px;
+    font-size: 2.8em;
     line-height: 1.4em; } }
 
+/*******************************
+600PX RESPONSIVE
+*******************************/
 @media screen and (max-width: 650px) {
   .social {
-    padding-top: 10px; }
+    padding-top: 3%; }
     .social a {
-      font-size: 38px;
+      font-size: 1.2em;
       line-height: 1.2em; } }
 
+/*******************************
+480PX RESPONSIVE
+*******************************/
 @media screen and (max-width: 420px) {
   .social {
-    padding-top: 8px; }
+    padding-top: 2%; }
     .social a {
-      font-size: 32px;
+      font-size: 2em;
       line-height: 1.2em; } }
 
-@media screen and (min-width: 320px) {
+/*******************************
+320PX RESPONSIVE
+*******************************/
+@media screen and (max-width: 320px) {
   h1 {
-    font-size: 48px;
-    letter-spacing: 2px;
-    margin-top: 10px;
-    padding-left: 20%; }
-  .contact a {
-    font-size: 32px;
-    line-height: 1.2em;
-    padding: 0 10px 0 10px; }
-  .social {
-    padding-top: 5px; }
-    .social a {
-      font-size: 26px;
-      line-height: 1.1em; }
+    font-size: 3em;
+    letter-spacing: .05em;
+    margin-top: 15%;
+    padding-left: 25%; }
   header {
-    height: 315px; }
+    height: 25%; }
+  .contact {
+    margin-bottom: 5%; }
+  .contact a {
+    font-size: 2em;
+    line-height: 1.2em;
+    padding: 0 5% 0 5%; }
   .site-center {
-    margin-top: 25px;
-    height: 560px; }
+    margin-top: 10%;
+    height: 35%; }
+  .panel-body {
+    height: 25em; }
+  .social {
+    padding-top: 1%; }
+    .social a {
+      font-size: 1.8em;
+      line-height: 1.1em; }
   footer p {
-    padding-top: 10px; } }
+    padding-top: 2%; } }
