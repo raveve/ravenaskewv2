@@ -183,6 +183,12 @@ ROTATE TRANSITION
 /*******************************
 MEDIA QUERIES
 ********************************/
+/*******************************
+768PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+
 @media screen and (max-width: 768px) {
   .social {
     a {
@@ -191,6 +197,12 @@ MEDIA QUERIES
     }
   }
 }
+
+/*******************************
+600PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 600px) and (max-width: 767px)
 
 @media screen and (max-width: 650px) {
   .social {
@@ -202,6 +214,12 @@ MEDIA QUERIES
   }
 }
 
+/*******************************
+480PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 480px) and (max-width: 599px)
+
 @media screen and (max-width: 420px) {
   .social {
     padding-top: 8px;
@@ -212,7 +230,11 @@ MEDIA QUERIES
   }
 }
 
-@media screen and (min-width: 320px) {
+/*******************************
+320PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
   h1 {
     font-size: 48px;
     letter-spacing: 2px;
