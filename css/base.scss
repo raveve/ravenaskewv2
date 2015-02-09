@@ -218,15 +218,47 @@ MEDIA QUERIES
 480PX RESPONSIVE
 *******************************/
 
-@media screen and (min-width: 480px) and (max-width: 599px){}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 3em;
+    letter-spacing: .05em;
+    margin-top: 15%;
+    padding-left: 40%;
+  }
 
-@media screen and (max-width: 420px) {
+  header {
+    height: 25%;
+  }
+
+  .contact {
+    margin-bottom: 5%;
+  }
+
+  .contact a {
+    font-size: 2em;
+    line-height: 1.2em;
+    padding: 0 5% 0 5%;
+  }
+
+  .site-center {
+    margin-top: 10%;
+    height: 35%;
+  }
+
+  .panel-body {
+    height: 25em;
+  }
+
   .social {
-    padding-top: 2%;
+    padding-top: 1%;
     a {
-      font-size: 2em;
-      line-height: 1.2em;
+      font-size: 1.8em;
+      line-height: 1.1em;
     }
+  }
+
+  footer p {
+    padding-top: 2%;
   }
 }
 
