@@ -21,7 +21,7 @@ $shadow: #191919;
 
   header {
     background-color: $purple-background;
-    height: 23em;
+    height: 10%;
       img {
      margin-top: 2%;
      width: 100%;
@@ -37,8 +37,16 @@ $shadow: #191919;
     font-weight: bold;
     color: $black;
     margin-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .contact {
+    margin-bottom: 5%;
+  }
+
+  .pdf {
+    margin-left: 8%;
   }
 
   .contact a {
@@ -54,7 +62,7 @@ $shadow: #191919;
   .site-center {
     background-color: $purple-background;
     margin-top: 3%;
-    height: 35em;
+    height: 38em;
     -webkit-box-shadow: 10px 10px 15px 0px $shadow;
     -moz-box-shadow: 10px 10px 15px 0px $shadow;
     box-shadow: 10px 10px 15px 0px $shadow;
@@ -83,6 +91,14 @@ $shadow: #191919;
     margin-top: 5%;
   }
 
+  .panel-body {
+    height: 20em;
+    overflow: scroll;
+    a {
+      color: $blue;
+    }
+  }
+
   .panel-default > .panel-heading {
     background-color: $blue-background;
   }
@@ -107,12 +123,8 @@ $shadow: #191919;
     text-decoration: none;
   }
 
-  .rec-body :first-child {
-    margin-bottom: 0;
-  }
-
   .sub-rec {
-    margin-top: 2%;
+    margin-top: 10%;
   }
 
   .rec-info {
@@ -121,10 +133,13 @@ $shadow: #191919;
   }
 
   .social {
-    padding-top: 1%;
+    padding-top: 5%;
     a {
       font-size: 1.8em;
       line-height: 1.1em;
+    }
+    i:hover {
+      color: $black;
     }
   }
 
@@ -136,5 +151,13 @@ $shadow: #191919;
     padding-top: 2%;
     color: $white;
   }
+
+}
+
+/*******************************
+480PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 480px) {
 
 }

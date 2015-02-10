@@ -8,7 +8,7 @@
     background: url("../images/Plaid_5_by_fairybliss.png"); }
   header {
     background-color: rgba(39, 21, 52, 0.8);
-    height: 23em; }
+    height: 10%; }
     header img {
       margin-top: 2%;
       width: 100%;
@@ -21,8 +21,12 @@
     font-weight: bold;
     color: #000000;
     margin-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%; }
+    padding-left: 12%;
+    padding-right: 12%; }
+  .contact {
+    margin-bottom: 5%; }
+  .pdf {
+    margin-left: 8%; }
   .contact a {
     color: #FFFFFF;
     font-size: 2em;
@@ -32,7 +36,7 @@
   .site-center {
     background-color: rgba(39, 21, 52, 0.8);
     margin-top: 3%;
-    height: 35em;
+    height: 38em;
     -webkit-box-shadow: 10px 10px 15px 0px #191919;
     -moz-box-shadow: 10px 10px 15px 0px #191919;
     box-shadow: 10px 10px 15px 0px #191919;
@@ -49,6 +53,11 @@
     color: #271534; }
   .panel-group {
     margin-top: 5%; }
+  .panel-body {
+    height: 20em;
+    overflow: scroll; }
+    .panel-body a {
+      color: #06adcb; }
   .panel-default > .panel-heading {
     background-color: rgba(6, 173, 203, 0.6); }
   .panel-default {
@@ -61,20 +70,24 @@
     text-decoration: none; }
   .panel-heading a:hover {
     text-decoration: none; }
-  .rec-body :first-child {
-    margin-bottom: 0; }
   .sub-rec {
-    margin-top: 2%; }
+    margin-top: 10%; }
   .rec-info {
     text-align: right;
     font-style: italic; }
   .social {
-    padding-top: 1%; }
+    padding-top: 5%; }
     .social a {
       font-size: 1.8em;
       line-height: 1.1em; }
+    .social i:hover {
+      color: #000000; }
   .social .fa, .contact .fa {
     color: #FFFFFF; }
   footer p {
     padding-top: 2%;
     color: #FFFFFF; } }
+
+/*******************************
+480PX RESPONSIVE
+*******************************/
