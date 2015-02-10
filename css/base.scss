@@ -1,3 +1,14 @@
+$name-font: 'Calligraffitti', cursive;
+$body-font: 'Josefin Sans', sans-serif;
+
+$black: #000000;
+$white: #FFFFFF;
+$purple-background: rgba(39, 21, 52, 0.8);
+$purple-font: rgb(39, 21, 52);
+$blue-background: rgba(6, 173, 203, 0.6);
+$blue: rgb(6, 173, 203);
+$shadow: #191919;
+
 /*******************************
 320PX RESPONSIVE MEDIA QUERY
 *******************************/
@@ -9,7 +20,121 @@
   }
 
   header {
-    background-color: rgba(39, 21, 52, 0.8);
-    height: 5%;
+    background-color: $purple-background;
+    height: 23em;
+      img {
+     margin-top: 2%;
+     width: 100%;
+     border-radius: 100%;
+     border: .4em solid $black;
+     }
   }
+
+  h1 {
+    font-family: $name-font;
+    font-size: 3em;
+    letter-spacing: .1em;
+    font-weight: bold;
+    color: $black;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .contact a {
+    color: $white;
+    font-size: 2em;
+    padding: 6%;
+  }
+
+  .contact i:hover {
+    color: $blue;
+  }
+
+  .site-center {
+    background-color: $purple-background;
+    margin-top: 3%;
+    height: 35em;
+    -webkit-box-shadow: 10px 10px 15px 0px $shadow;
+    -moz-box-shadow: 10px 10px 15px 0px $shadow;
+    box-shadow: 10px 10px 15px 0px $shadow;
+    overflow: scroll;
+  }
+
+  h4 {
+    font-family: $name-font;
+  }
+
+  body p, body ul {
+    font-family: $body-font;
+    font-size: 1em;
+    color: $purple-font;
+  }
+
+  body ul {
+    list-style-type: square;
+  }
+
+  .panel-body a {
+    color: $purple-font;
+  }
+
+  .panel-group {
+    margin-top: 5%;
+  }
+
+  .panel-default > .panel-heading {
+    background-color: $blue-background;
+  }
+
+  .panel-default {
+  border-color: $blue;
+  }
+
+  .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: $blue;
+  }
+
+  .panel-title {
+    color: $purple-font;
+  }
+
+  .panel-heading a:focus {
+    text-decoration: none;
+  }
+
+  .panel-heading a:hover {
+    text-decoration: none;
+  }
+
+  .rec-body :first-child {
+    margin-bottom: 0;
+  }
+
+  .sub-rec {
+    margin-top: 2%;
+  }
+
+  .rec-info {
+    text-align: right;
+    font-style: italic;
+  }
+
+  .social {
+    padding-top: 1%;
+    a {
+      font-size: 1.8em;
+      line-height: 1.1em;
+    }
+  }
+
+  .social .fa, .contact .fa {
+    color: $white;
+  }
+
+  footer p {
+    padding-top: 2%;
+    color: $white;
+  }
+
 }
