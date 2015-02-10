@@ -155,9 +155,348 @@ $shadow: #191919;
 }
 
 /*******************************
+360PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 340px) {
+  h1 {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+
+  .pdf {
+    margin-left: 11%;
+  }
+}
+
+/*******************************
+360PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 360px) {
+  header img {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .pdf {
+    margin-left: 10%;
+  }
+
+  .social a {
+    font-size: 1.9em;
+    line-height: 1.2em;
+  }
+}
+
+/*******************************
+400PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 400px) {
+  header img {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+
+  .pdf {
+    margin-left: 9%;
+  }
+
+  .social a {
+    font-size: 2em;
+    line-height: 1.4em;
+  }
+}
+
+/*******************************
+440PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 440px) {
+  header img {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  h1 {
+    padding-left: 25%;
+    padding-right: 20%;
+  }
+
+  .pdf {
+    margin-left: 12%;
+  }
+}
+
+/*******************************
 480PX RESPONSIVE
 *******************************/
 
 @media screen and (min-width: 480px) {
+  header img {
+    width: 75%;
+    margin-left: 12.5%;
+  }
 
+  .social a {
+    font-size: 2.4em;
+    line-height: 1.6em;
+  }
+
+  footer p {
+    padding-left: 10%;
+  }
+}
+
+/*******************************
+520PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 520px) {
+  header img {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  h1 {
+    padding-left: 28%;
+    padding-right: 13%;
+  }
+
+  .contact {
+    margin-bottom: 1%;
+  }
+
+  .contact a {
+    color: $white;
+    font-size: 2em;
+    padding: 4%;
+  }
+
+  .pdf {
+    margin-left: 16%;
+  }
+}
+
+/*******************************
+540PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 540px) {
+  body p, body ul {
+    font-size: 1.1em;
+  }
+
+  .sub-rec {
+    margin-top: 8%;
+  }
+}
+
+/*******************************
+600PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 600px) {
+  header img {
+    width: 65%;
+    margin-left: 17.5%;
+  }
+
+  h1 {
+    padding-left: 30%;
+    padding-right: 12%;
+  }
+
+  .contact {
+    margin-bottom: 2%;
+  }
+
+  body p, body ul {
+    font-size: 1.2em;
+  }
+
+  .sub-rec {
+    margin-top: 6%;
+  }
+}
+
+/*******************************
+640PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 640px) {
+  header img {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  h1 {
+    padding-left: 32%;
+    padding-right: 10%;
+    margin-top: 3%;
+  }
+
+  .pdf {
+    margin-left: 22%;
+  }
+
+  .contact {
+    margin-bottom: 3%;
+  }
+
+  .contact a {
+    font-size: 2.2em;
+    padding: 2%;
+  }
+
+  body p, body ul {
+    font-size: 1.3em;
+  }
+
+  .sub-rec {
+    margin-top: 4%;
+  }
+
+  .social a {
+    font-size: 2.6em;
+    line-height: 1.8em;
+  }
+}
+
+/*******************************
+700PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 700px) {
+  header img {
+    width: 55%;
+    margin-left: 22.5%;
+  }
+
+  h1 {
+    font-size: 3.2em;
+    letter-spacing: .1em;
+    padding-left: 34%;
+    padding-right: 10%;
+    margin-top: 2%;
+  }
+
+  .pdf {
+    margin-left: 24%;
+  }
+
+  .social a {
+    font-size: 2.8em;
+    line-height: 1.6em;
+  }
+}
+
+/*******************************
+768PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 768px) {
+  header {
+    height: 5em;
+      img {
+     margin-top: 5%;
+     width: 100%;
+     margin-left: 0;
+     }
+  }
+
+  h1 {
+    font-size: 2.5em;
+    letter-spacing: .1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 15%;
+  }
+
+  .pdf {
+    margin-left: 0;
+  }
+
+  .contact {
+    margin-top: 2%;
+    margin-bottom: 0;
+  }
+
+  .contact a {
+    font-size: 2.8em;
+    padding: 4%;
+  }
+
+  .site-center {
+    background-color: $purple-background;
+    margin-top: 7%;
+    height: 40em
+  }
+
+  .panel-group {
+    margin-top: 2%;
+  }
+
+  .panel-body {
+    height: 22em;
+  }
+
+  .social {
+    padding-top: 2%;
+  }
+
+  footer p {
+    font-size: 1.2em;
+  }
+}
+
+/*******************************
+900PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 900px) {
+  header {
+    height: 5.4em;
+  }
+
+  .site-center {
+    margin-top: 7%;
+  }
+
+  .social {
+    padding-top: 1%;
+  }
+
+  footer p {
+    padding-top: 1%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+/*******************************
+1000PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 1000px) {
+  header {
+    height: 5.7em;
+  }
+
+  h1 {
+    font-size: 2.8em;
+    letter-spacing: .1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 13%;
+  }
+
+  .site-center {
+    height: 39em
+  }
+
+  h4 {
+    font-size: 2.2em;
+  }
 }
