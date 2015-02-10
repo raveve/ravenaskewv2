@@ -306,5 +306,84 @@
     margin-top: 13%; }
   .site-center {
     height: 39em; }
-  h4 {
-    font-size: 2.2em; } }
+  .panel-title {
+    font-size: 1.2em;
+    font-weight: bold; } }
+
+/*******************************
+1100PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 1100px) {
+  .site-center {
+    margin-top: 8%; }
+  .site-center {
+    height: 38em; }
+  .panel-body {
+    height: 21em; } }
+
+/*******************************
+1160PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 1160px) {
+  header {
+    height: 6em; }
+  .site-center {
+    height: 37em; }
+  .panel-body {
+    height: 20em; } }
+
+/*******************************
+1240PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 1240px) {
+  h1 {
+    font-size: 3em;
+    letter-spacing: .1em;
+    margin-top: 13%; }
+  header {
+    height: 6.6em; }
+  .site-center {
+    height: 36em; }
+  .panel-body {
+    height: 19em; } }
+
+/*******************************
+1280PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 1280px) {
+  .site-center {
+    height: 35em;
+    margin-top: 8%; }
+  .panel-body {
+    height: 18em; } }
+
+/*******************************
+1360PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 1360px) {
+  header {
+    height: 7em; }
+  .site-center {
+    height: 34em;
+    margin-top: 8%; }
+  .panel-body {
+    height: 17em; } }
+
+/*******************************
+1500PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 1500px) {
+  header {
+    height: 8.5em; }
+  h1 {
+    font-size: 3.4em;
+    letter-spacing: .1em;
+    margin-top: 13%; }
+  .site-center {
+    height: 33em;
+    margin-top: 8%; }
+  .panel-body {
+    height: 16em; }
+  .social a {
+    font-size: 3em;
+    line-height: 1.8em; } }
