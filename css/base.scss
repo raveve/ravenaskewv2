@@ -597,6 +597,25 @@ $shadow: #191919;
 }
 
 /*******************************
+1400PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 1400px) {
+  header {
+    height: 8em;
+  }
+
+  .site-center {
+    height: 33em;
+    margin-top: 7%;
+  }
+
+  .panel-body {
+    height: 16em;
+  }
+}
+
+/*******************************
 1500PX RESPONSIVE
 *******************************/
 
