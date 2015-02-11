@@ -91,7 +91,7 @@ $shadow: #191919;
     list-style-type: square;
   }
 
-  header.contact a:focus {
+  .contact > a:focus {
     text-decoration: none;
   }
 
@@ -532,6 +532,10 @@ $shadow: #191919;
     height: 6.3em;
   }
 
+  h1 {
+    font-size: 2.9em;
+  }
+
   .contact a {
     font-size: 1.9em;
   }
@@ -560,6 +564,10 @@ $shadow: #191919;
 @media screen and (min-width: 1160px) {
   header {
     height: 7.4em;
+  }
+
+  h1 {
+    font-size: 3em;
   }
 
   .contact a {
@@ -594,6 +602,10 @@ $shadow: #191919;
     height: 7.8em;
   }
 
+  h1 {
+    font-size: 3.1em;
+  }
+
   .site-center {
     height: 35em
   }
@@ -612,13 +624,21 @@ $shadow: #191919;
 *******************************/
 
 @media screen and (min-width: 1280px) {
+  h1 {
+    font-size: 3.2em;
+  }
+
   .site-center {
     height: 34em;
-    margin-top: 7%;
+    margin-top: 7.5%;
   }
 
   .panel-body {
     height: 17em;
+  }
+
+  .social {
+    padding-top: .5%;
   }
 }
 
@@ -628,7 +648,7 @@ $shadow: #191919;
 
 @media screen and (min-width: 1330px) {
   header {
-    height: 8em;
+    height: 8.5em;
   }
 
   .contact a {
@@ -649,17 +669,12 @@ $shadow: #191919;
     height: 8.4em;
   }
 
+  h1 {
+    font-size: 3.4em;
+  }
+
   .contact a {
     font-size: 2.6em;
-  }
-
-  .site-center {
-    height: 33.5em;
-    margin-top: 7.5%;
-  }
-
-  .panel-body {
-    height: 16em;
   }
 
   footer p {
@@ -690,15 +705,6 @@ $shadow: #191919;
 
   .contact a {
     font-size: 2.8em;
-  }
-
-  .site-center {
-    height: 32em;
-    margin-top: 6%;
-  }
-
-  .panel-body {
-    height: 15em;
   }
 
   .social a {
@@ -742,7 +748,7 @@ $shadow: #191919;
   }
 
   .site-center {
-    margin-top: 4.5%;
+    margin-top: 5%;
   }
 }
 
@@ -777,7 +783,7 @@ $shadow: #191919;
 
 @media screen and (min-width: 1920px) {
   header {
-    height: 12.5em;
+    height: 13em;
   }
 
   h1 {
@@ -795,7 +801,7 @@ $shadow: #191919;
 
 @media screen and (min-width: 2020px) {
   header {
-    height: 13em;
+    height: 14em;
   }
 
   h1 {
