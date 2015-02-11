@@ -31,6 +31,23 @@ $shadow: #191919;
      }
   }
 
+  header img {
+  opacity: 0;
+    -webkit-animation: fade-in 2s ease-in 1;
+    -moz-animation: fade-in 2s ease-in 1;
+    -o-animation: fade-in 2s ease-in 1;
+    animation: fade-in 2s ease-in 1;
+  }
+
+  @-webkit-keyframes fade-in {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  header img {
+    opacity: 1;
+  }
+
   h1 {
     font-family: $name-font;
     font-size: 3em;
@@ -40,6 +57,7 @@ $shadow: #191919;
     margin-top: 5%;
     padding-left: 12%;
     padding-right: 12%;
+    text-shadow: 2px 3px 0 $purple-background, 5px 7px 0 $black;
   }
 
   .contact {
@@ -51,11 +69,13 @@ $shadow: #191919;
     color: $blue;
     font-size: 2em;
     padding: 6%;
+    text-shadow: 1px 2px 0 $purple-background, 4px 5px 0 $black;
   }
 
   .contact a:hover {
     color: $green;
     text-decoration: none;
+    text-shadow: 1px 2px 0 $purple-background, 4px 5px 0 $black;
   }
 
   .contact .fa {
@@ -132,6 +152,10 @@ $shadow: #191919;
     background-color: $blue-background;
   }
 
+  .panel-default > .panel-heading:hover {
+    background-color: $green;
+  }
+
   .panel-default {
   border-color: $blue;
   }
@@ -174,6 +198,7 @@ $shadow: #191919;
     }
     i:hover {
       color: $black;
+      text-shadow: 2px 3px 0 $purple-background, 5px 7px 0 $white;
     }
   }
 
@@ -658,11 +683,11 @@ $shadow: #191919;
   }
 
   header {
-    height: 7.8em;
+    height: 7.9em;
   }
 
   h1 {
-    font-size: 3.1em;
+    font-size: 3.2em;
   }
 
   .site-center {
@@ -684,7 +709,7 @@ $shadow: #191919;
 
 @media screen and (min-width: 1280px) {
   h1 {
-    font-size: 3.2em;
+    font-size: 3.3em;
   }
 
   .contact i {
