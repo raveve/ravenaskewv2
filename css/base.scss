@@ -40,7 +40,7 @@ $shadow: #191919;
   }
 
   @-webkit-keyframes fade-in {
-    0%   { opacity: 0; }
+    0%   { opacity: .2; }
     100% { opacity: 1; }
   }
 
@@ -89,7 +89,6 @@ $shadow: #191919;
     -webkit-box-shadow: 10px 10px 15px 0px $shadow;
     -moz-box-shadow: 10px 10px 15px 0px $shadow;
     box-shadow: 10px 10px 15px 0px $shadow;
-    overflow: scroll;
   }
 
   .panel-heading a {
@@ -98,7 +97,8 @@ $shadow: #191919;
   }
 
   h4 {
-    font-family: $name-font;
+    font-family: $body-font;
+    font-weight: bold;
   }
 
   body p, body ul {
@@ -137,7 +137,7 @@ $shadow: #191919;
   }
 
   .panel-group {
-    margin-top: 5%;
+    margin-top: 3%;
   }
 
   .panel-body {
@@ -492,7 +492,7 @@ $shadow: #191919;
   }
 
   .panel-group {
-    margin-top: 2%;
+    margin-top: 1%;
   }
 
   .panel-body {
@@ -548,7 +548,7 @@ $shadow: #191919;
 
 @media screen and (min-width: 1000px) {
   header {
-    height: 5.8em;
+    height: 5.9em;
   }
 
   h1 {
@@ -587,7 +587,7 @@ $shadow: #191919;
 
 @media screen and (min-width: 1060px) {
   header {
-    height: 6em;
+    height: 6.1em;
   }
 
   .contact a {
@@ -613,7 +613,7 @@ $shadow: #191919;
 
 @media screen and (min-width: 1100px) {
   header {
-    height: 6.3em;
+    height: 6.4em;
   }
 
   h1 {
