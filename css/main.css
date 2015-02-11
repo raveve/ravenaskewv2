@@ -56,8 +56,13 @@
     list-style-type: square; }
   .contact > a:focus {
     text-decoration: none; }
+  .contact i {
+    width: 18%; }
   .panel-body a {
     color: #271534; }
+  .panel-body a:hover {
+    text-decoration: none;
+    color: #86C977; }
   .panel-group {
     margin-top: 5%; }
   .panel-body {
@@ -73,6 +78,8 @@
     border-top-color: #06adcb; }
   .panel-title {
     color: #271534; }
+  .panel-title i {
+    width: 8%; }
   .panel-heading a:focus {
     text-decoration: none; }
   .panel-heading a:hover {
@@ -95,14 +102,21 @@
   footer p {
     font-size: 1.2em;
     padding-top: 2%;
-    color: #FFFFFF; } }
+    color: #FFFFFF; }
+  footer p:hover {
+    color: #000000;
+    text-decoration: none; }
+  footer a:hover {
+    text-decoration: none; } }
 
 /*******************************
 360PX RESPONSIVE
 *******************************/
 @media screen and (min-width: 360px) {
   header img {
-    width: 90%; } }
+    width: 90%; }
+  .contact i {
+    width: 20%; } }
 
 /*******************************
 380PX RESPONSIVE
@@ -133,6 +147,8 @@
   .contact a {
     font-size: 1.6em;
     padding: 5%; }
+  .contact i {
+    width: 8%; }
   .contact .fa {
     padding-right: 1%; } }
 
@@ -165,6 +181,8 @@
 @media screen and (min-width: 540px) {
   body p, body ul {
     font-size: 1.1em; }
+  .panel-title i {
+    width: 7%; }
   .sub-rec {
     margin-top: 8%; }
   footer p {
@@ -205,6 +223,8 @@
     padding: 2%; }
   .pdf {
     margin-left: 12%; }
+  .panel-title i {
+    width: 6%; }
   body p, body ul {
     font-size: 1.3em; }
   .sub-rec {
@@ -252,6 +272,8 @@
     padding: 4%; }
   .contact .fa {
     padding-right: 1%; }
+  .contact i {
+    width: 20%; }
   .site-center {
     background-color: rgba(39, 21, 52, 0.8);
     margin-top: 7%;
@@ -275,6 +297,8 @@
     height: 5.4em; }
   .contact a {
     font-size: 1.6em; }
+  .panel-title i {
+    width: 5%; }
   .site-center {
     margin-top: 6.5%; }
   .social {
@@ -298,6 +322,8 @@
     margin-top: 13%; }
   .contact a {
     font-size: 1.7em; }
+  .panel-title i {
+    width: 4%; }
   .site-center {
     height: 39em; }
   .panel-title {
@@ -382,6 +408,10 @@
 @media screen and (min-width: 1280px) {
   h1 {
     font-size: 3.2em; }
+  .contact i {
+    width: 18%; }
+  .panel-title i {
+    width: 3%; }
   .site-center {
     height: 34em;
     margin-top: 7.5%; }
@@ -456,6 +486,8 @@
     height: 11em; }
   .contact a {
     font-size: 3.2em; }
+  .panel-title i {
+    width: 2%; }
   .site-center {
     margin-top: 5%; } }
 

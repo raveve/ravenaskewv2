@@ -95,8 +95,17 @@ $shadow: #191919;
     text-decoration: none;
   }
 
+  .contact i {
+    width: 18%;
+  }
+
   .panel-body a {
     color: $purple-font;
+  }
+
+  .panel-body a:hover {
+    text-decoration: none;
+    color: $green;
   }
 
   .panel-group {
@@ -125,6 +134,10 @@ $shadow: #191919;
 
   .panel-title {
     color: $purple-font;
+  }
+
+  .panel-title i {
+    width: 8%;
   }
 
   .panel-heading a:focus {
@@ -166,6 +179,16 @@ $shadow: #191919;
     color: $white;
   }
 
+  footer p:hover {
+    color: $black;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+  }
+
+
 }
 
 /*******************************
@@ -175,6 +198,10 @@ $shadow: #191919;
 @media screen and (min-width: 360px) {
   header img {
     width: 90%;
+  }
+
+  .contact i {
+    width: 20%;
   }
 }
 
@@ -220,6 +247,10 @@ $shadow: #191919;
   .contact a {
     font-size: 1.6em;
     padding: 5%;
+  }
+
+  .contact i {
+    width: 8%;
   }
 
   .contact .fa {
@@ -269,6 +300,10 @@ $shadow: #191919;
 @media screen and (min-width: 540px) {
   body p, body ul {
     font-size: 1.1em;
+  }
+
+  .panel-title i {
+    width: 7%;
   }
 
   .sub-rec {
@@ -335,6 +370,10 @@ $shadow: #191919;
 
   .pdf {
     margin-left: 12%;
+  }
+
+  .panel-title i {
+    width: 6%;
   }
 
   body p, body ul {
@@ -409,6 +448,10 @@ $shadow: #191919;
     padding-right: 1%;
   }
 
+  .contact i {
+    width: 20%;
+  }
+
   .site-center {
     background-color: $purple-background;
     margin-top: 7%;
@@ -447,6 +490,10 @@ $shadow: #191919;
     font-size: 1.6em;
   }
 
+  .panel-title i {
+    width: 5%;
+  }
+
   .site-center {
     margin-top: 6.5%;
   }
@@ -481,6 +528,10 @@ $shadow: #191919;
 
   .contact a {
     font-size: 1.7em;
+  }
+
+  .panel-title i {
+    width: 4%;
   }
 
   .site-center {
@@ -628,6 +679,14 @@ $shadow: #191919;
     font-size: 3.2em;
   }
 
+  .contact i {
+    width: 18%;
+  }
+
+  .panel-title i {
+    width: 3%;
+  }
+
   .site-center {
     height: 34em;
     margin-top: 7.5%;
@@ -745,6 +804,10 @@ $shadow: #191919;
 
   .contact a {
     font-size: 3.2em;
+  }
+
+  .panel-title i {
+    width: 2%;
   }
 
   .site-center {
