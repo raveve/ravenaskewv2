@@ -91,6 +91,10 @@ $shadow: #191919;
     list-style-type: square;
   }
 
+  .contact a:focus {
+    text-decoration: none;
+  }
+
   .panel-body a {
     color: $purple-font;
   }
