@@ -87,6 +87,14 @@ $shadow: #191919;
     color: $purple-font;
   }
 
+  .bold {
+    font-weight: bold;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
   body ul {
     list-style-type: square;
   }
