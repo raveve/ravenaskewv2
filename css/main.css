@@ -98,38 +98,25 @@
 /*******************************
 360PX RESPONSIVE
 *******************************/
-@media screen and (min-width: 340px) {
-  h1 {
-    padding-left: 18%;
-    padding-right: 18%; }
-  .pdf {
-    margin-left: 11%; } }
-
-/*******************************
-360PX RESPONSIVE
-*******************************/
 @media screen and (min-width: 360px) {
   header img {
-    width: 90%;
-    margin-left: 5%; }
-  .pdf {
-    margin-left: 10%; }
-  .social a {
-    font-size: 1.9em;
-    line-height: 1.2em; } }
+    width: 90%; } }
+
+/*******************************
+380PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 360px) {
+  .contact .fa {
+    padding-right: 8%; } }
 
 /*******************************
 400PX RESPONSIVE
 *******************************/
 @media screen and (min-width: 400px) {
   header img {
-    width: 85%;
-    margin-left: 7.5%; }
-  .pdf {
-    margin-left: 9%; }
-  .social a {
-    font-size: 2em;
-    line-height: 1.4em; } }
+    width: 85%; }
+  .contact a {
+    font-size: 2.2em; } }
 
 /*******************************
 440PX RESPONSIVE
@@ -141,8 +128,11 @@
   h1 {
     padding-left: 25%;
     padding-right: 20%; }
-  .pdf {
-    margin-left: 12%; } }
+  .contact a {
+    font-size: 1.6em;
+    padding: 5%; }
+  .contact .fa {
+    padding-right: 1%; } }
 
 /*******************************
 480PX RESPONSIVE
@@ -151,9 +141,6 @@
   header img {
     width: 75%;
     margin-left: 12.5%; }
-  .social a {
-    font-size: 2.4em;
-    line-height: 1.6em; }
   footer p {
     padding-left: 10%; } }
 
@@ -167,14 +154,8 @@
   h1 {
     padding-left: 28%;
     padding-right: 13%; }
-  .contact {
-    margin-bottom: 1%; }
-  .contact a {
-    color: #FFFFFF;
-    font-size: 2em;
-    padding: 4%; }
   .pdf {
-    margin-left: 16%; } }
+    margin-left: 10%; } }
 
 /*******************************
 540PX RESPONSIVE
@@ -183,7 +164,9 @@
   body p, body ul {
     font-size: 1.1em; }
   .sub-rec {
-    margin-top: 8%; } }
+    margin-top: 8%; }
+  footer p {
+    padding-left: 15%; } }
 
 /*******************************
 600PX RESPONSIVE
@@ -213,20 +196,17 @@
     padding-left: 32%;
     padding-right: 10%;
     margin-top: 3%; }
-  .pdf {
-    margin-left: 22%; }
   .contact {
     margin-bottom: 3%; }
   .contact a {
     font-size: 2.2em;
     padding: 2%; }
+  .pdf {
+    margin-left: 12%; }
   body p, body ul {
     font-size: 1.3em; }
   .sub-rec {
-    margin-top: 4%; }
-  .social a {
-    font-size: 2.6em;
-    line-height: 1.8em; } }
+    margin-top: 4%; } }
 
 /*******************************
 700PX RESPONSIVE
@@ -242,10 +222,7 @@
     padding-right: 10%;
     margin-top: 2%; }
   .pdf {
-    margin-left: 24%; }
-  .social a {
-    font-size: 2.8em;
-    line-height: 1.6em; } }
+    margin-left: 14%; } }
 
 /*******************************
 768PX RESPONSIVE
@@ -269,8 +246,10 @@
     margin-top: 2%;
     margin-bottom: 0; }
   .contact a {
-    font-size: 2.8em;
+    font-size: 1.4em;
     padding: 4%; }
+  .contact .fa {
+    padding-right: 1%; }
   .site-center {
     background-color: rgba(39, 21, 52, 0.8);
     margin-top: 7%;
@@ -282,7 +261,9 @@
   .social {
     padding-top: 2%; }
   footer p {
-    font-size: 1.2em; } }
+    font-size: 1.4em;
+    padding-left: 7%;
+    margin-bottom: 0; } }
 
 /*******************************
 900PX RESPONSIVE
@@ -290,8 +271,10 @@
 @media screen and (min-width: 900px) {
   header {
     height: 5.4em; }
+  .contact a {
+    font-size: 1.6em; }
   .site-center {
-    margin-top: 7%; }
+    margin-top: 6.5%; }
   .social {
     padding-top: 1%; }
   footer p {
@@ -304,40 +287,69 @@
 *******************************/
 @media screen and (min-width: 1000px) {
   header {
-    height: 5.7em; }
+    height: 5.8em; }
   h1 {
     font-size: 2.8em;
     letter-spacing: .1em;
     padding-left: 0;
     padding-right: 0;
     margin-top: 13%; }
+  .contact a {
+    font-size: 1.7em; }
   .site-center {
     height: 39em; }
   .panel-title {
     font-size: 1.2em;
-    font-weight: bold; } }
+    font-weight: bold; }
+  footer p {
+    padding-left: 9%; } }
 
 /*******************************
-1100PX RESPONSIVE
+1060PX RESPONSIVE
 *******************************/
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1060px) {
+  header {
+    height: 6em; }
+  .contact a {
+    font-size: 1.8em; }
   .site-center {
-    margin-top: 8%; }
+    margin-top: 7%; }
   .site-center {
     height: 38em; }
   .panel-body {
     height: 21em; } }
 
 /*******************************
+1100PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 1100px) {
+  header {
+    height: 6.3em; }
+  .contact a {
+    font-size: 1.9em; }
+  .site-center {
+    margin-top: 7.5%; }
+  .site-center {
+    height: 37em; }
+  .panel-body {
+    height: 20em; }
+  footer p {
+    padding-left: 10%; } }
+
+/*******************************
 1160PX RESPONSIVE
 *******************************/
 @media screen and (min-width: 1160px) {
   header {
-    height: 6em; }
+    height: 7.4em; }
+  .contact a {
+    font-size: 2.2em; }
   .site-center {
-    height: 37em; }
+    height: 36em; }
   .panel-body {
-    height: 20em; } }
+    height: 19em; }
+  footer p {
+    padding-left: 13%; } }
 
 /*******************************
 1240PX RESPONSIVE
@@ -348,45 +360,51 @@
     letter-spacing: .1em;
     margin-top: 13%; }
   header {
-    height: 6.6em; }
+    height: 7.8em; }
   .site-center {
-    height: 36em; }
+    height: 35em; }
   .panel-body {
-    height: 19em; } }
+    height: 18em; }
+  footer p {
+    padding-top: .5%; } }
 
 /*******************************
 1280PX RESPONSIVE
 *******************************/
 @media screen and (min-width: 1280px) {
   .site-center {
-    height: 35em;
-    margin-top: 8%; }
-  .panel-body {
-    height: 18em; } }
-
-/*******************************
-1360PX RESPONSIVE
-*******************************/
-@media screen and (min-width: 1360px) {
-  header {
-    height: 7em; }
-  .site-center {
     height: 34em;
-    margin-top: 8%; }
+    margin-top: 7%; }
   .panel-body {
     height: 17em; } }
+
+/*******************************
+1330PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 1330px) {
+  header {
+    height: 8em; }
+  .contact a {
+    font-size: 2.4em; }
+  .site-center {
+    margin-top: 7.5%; } }
 
 /*******************************
 1400PX RESPONSIVE
 *******************************/
 @media screen and (min-width: 1400px) {
   header {
-    height: 8em; }
+    height: 8.4em; }
+  .contact a {
+    font-size: 2.6em; }
   .site-center {
-    height: 33em;
-    margin-top: 8%; }
+    height: 33.5em;
+    margin-top: 7.5%; }
   .panel-body {
-    height: 16em; } }
+    height: 16em; }
+  footer p {
+    font-size: 1.2em;
+    padding-left: 16%; } }
 
 /*******************************
 1500PX RESPONSIVE
@@ -396,23 +414,21 @@
     width: 90%;
     margin-left: 5%; }
   header {
-    height: 8.5em; }
+    height: 10em; }
   h1 {
-    font-size: 3.4em;
+    font-size: 3.6em;
     letter-spacing: .1em;
     margin-top: 13%; }
+  .contact a {
+    font-size: 2.8em; }
   .site-center {
     height: 32em;
-    margin-top: 7%; }
+    margin-top: 6%; }
   .panel-body {
     height: 15em; }
   .social a {
     font-size: 3em;
-    line-height: 1.8em; }
-  footer p {
-    padding-top: .5%;
-    padding-bottom: 0;
-    margin-bottom: 0; } }
+    line-height: 1.8em; } }
 
 /*******************************
 1600PX RESPONSIVE
@@ -420,31 +436,59 @@
 @media screen and (min-width: 1600px) {
   header img {
     width: 80%;
-    margin-left: 10%; } }
+    margin-left: 10%; }
+  .contact a {
+    font-size: 3em; } }
 
 /*******************************
-1800PX RESPONSIVE
+1700PX RESPONSIVE
 *******************************/
-@media screen and (min-width: 1800px) {
-  header {
-    height: 9em; }
-  h1 {
-    font-size: 3.6em;
-    letter-spacing: .1em;
-    margin-top: 13%; }
-  .site-center {
-    margin-top: 6%; } }
-
-/*******************************
-1900PX RESPONSIVE
-*******************************/
-@media screen and (min-width: 1900px) {
-  header {
-    height: 9.2em; }
-  header img {
-    width: 75%;
-    margin-left: 12.5%; }
+@media screen and (min-width: 1700px) {
   h1 {
     font-size: 3.8em;
     letter-spacing: .1em;
-    margin-top: 13%; } }
+    margin-top: 18%; }
+  header {
+    height: 11em; }
+  .contact a {
+    font-size: 3.2em; }
+  .site-center {
+    margin-top: 4.5%; } }
+
+/*******************************
+1830PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 1830px) {
+  header img {
+    width: 75%;
+    margin-left: 12.5%; }
+  header {
+    height: 12em; }
+  h1 {
+    font-size: 4em;
+    letter-spacing: .1em;
+    margin-top: 18%; }
+  .contact a {
+    font-size: 3.4em; } }
+
+/*******************************
+1920PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 1920px) {
+  header {
+    height: 12.5em; }
+  h1 {
+    font-size: 4.2em; }
+  .contact a {
+    font-size: 3.6em; } }
+
+/*******************************
+2020PX RESPONSIVE
+*******************************/
+@media screen and (min-width: 2020px) {
+  header {
+    height: 13em; }
+  h1 {
+    font-size: 4.4em; }
+  .contact a {
+    font-size: 4em; } }
