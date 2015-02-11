@@ -7,6 +7,7 @@ $purple-background: rgba(39, 21, 52, 0.8);
 $purple-font: rgb(39, 21, 52);
 $blue-background: rgba(6, 173, 203, 0.6);
 $blue: rgb(6, 173, 203);
+$green: #86C977;
 $shadow: #191919;
 
 /*******************************
@@ -35,7 +36,7 @@ $shadow: #191919;
     font-size: 3em;
     letter-spacing: .1em;
     font-weight: bold;
-    color: $black;
+    color: $white;
     margin-top: 5%;
     padding-left: 12%;
     padding-right: 12%;
@@ -45,18 +46,20 @@ $shadow: #191919;
     margin-bottom: 5%;
   }
 
-  .pdf {
-    margin-left: 8%;
-  }
-
   .contact a {
-    color: $white;
+    font-family: $name-font;
+    color: $blue;
     font-size: 2em;
     padding: 6%;
   }
 
-  .contact i:hover {
-    color: $blue;
+  .contact a:hover {
+    color: $green;
+    text-decoration: none;
+  }
+
+  .contact .fa {
+    padding-right: 5%;
   }
 
   .site-center {
@@ -67,6 +70,11 @@ $shadow: #191919;
     -moz-box-shadow: 10px 10px 15px 0px $shadow;
     box-shadow: 10px 10px 15px 0px $shadow;
     overflow: scroll;
+  }
+
+  .panel-heading a {
+    display: inline-block;
+    width: 100%;
   }
 
   h4 {
@@ -135,19 +143,21 @@ $shadow: #191919;
   .social {
     padding-top: 5%;
     a {
-      font-size: 1.8em;
-      line-height: 1.1em;
+      font-size: 3em;
+      line-height: 1.6em;
+      letter-spacing: .5em;
     }
     i:hover {
       color: $black;
     }
   }
 
-  .social .fa, .contact .fa {
+  .social .fa {
     color: $white;
   }
 
   footer p {
+    font-size: 1.2em;
     padding-top: 2%;
     color: $white;
   }
@@ -607,7 +617,7 @@ $shadow: #191919;
 
   .site-center {
     height: 33em;
-    margin-top: 7%;
+    margin-top: 8%;
   }
 
   .panel-body {
@@ -620,6 +630,11 @@ $shadow: #191919;
 *******************************/
 
 @media screen and (min-width: 1500px) {
+  header img {
+    width: 90%;
+    margin-left: 5%;
+  }
+
   header {
     height: 8.5em;
   }
@@ -631,16 +646,74 @@ $shadow: #191919;
   }
 
   .site-center {
-    height: 33em;
-    margin-top: 8%;
+    height: 32em;
+    margin-top: 7%;
   }
 
   .panel-body {
-    height: 16em;
+    height: 15em;
   }
 
   .social a {
     font-size: 3em;
     line-height: 1.8em;
+  }
+
+  footer p {
+    padding-top: .5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+/*******************************
+1600PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 1600px) {
+  header img {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+/*******************************
+1800PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 1800px) {
+  header {
+    height: 9em;
+  }
+
+  h1 {
+    font-size: 3.6em;
+    letter-spacing: .1em;
+    margin-top: 13%;
+  }
+
+  .site-center {
+    margin-top: 6%;
+  }
+}
+
+/*******************************
+1900PX RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 1900px) {
+  header {
+    height: 9.2em;
+  }
+
+  header img {
+    width: 75%;
+    margin-left: 12.5%;
+  }
+
+  h1 {
+    font-size: 3.8em;
+    letter-spacing: .1em;
+    margin-top: 13%;
   }
 }
