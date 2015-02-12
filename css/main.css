@@ -110,6 +110,8 @@
     text-decoration: none; }
   .sub-rec {
     margin-top: 10%; }
+  .panel-body a:focus {
+    text-decoration: none; }
   .rec-info {
     text-align: right;
     font-style: italic; }
